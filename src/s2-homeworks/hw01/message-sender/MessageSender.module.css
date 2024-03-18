@@ -9,7 +9,6 @@ margin-top: auto;
 background: #F5F7FB;
     padding: 6px 12px;
     border-radius: 20px;
-    border: 1px solid #000;
     flex-grow: 1;
     resize: none;
     display: flex;
@@ -22,6 +21,10 @@ background: #F5F7FB;
     font-size: 16px;
 }
 
+.textarea:focus-visible {
+    outline:  1px solid #000;
+}
+
 .button {
     width: 120px;
     height: 40px;
@@ -32,6 +35,8 @@ background: #F5F7FB;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    border: none;
+    outline: none;
 }
 
 .button:hover {

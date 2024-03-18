@@ -1,0 +1,42 @@
+.sendForm {
+margin-top: auto;
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.textarea {
+background: #F5F7FB;
+    padding: 6px 12px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    flex-grow: 1;
+    resize: none;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+
+.textarea::placeholder {
+    font-size: 16px;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    flex-shrink: 0;
+    background: #0066CC;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.button:hover {
+
+}
+.button:active {
+
+}
